@@ -2,7 +2,9 @@
 
 ## Description
 
-This project focuses on predicting the outcomes of COVID-19 patients (mild/moderate vs. severe/critical) based on their single-cell RNA (scRNA) expression data. Utilizing a dataset of 100k cells from COVID-19 patients with mild to moderate outcomes, our approach leverages the `scFeatures` R package to aggregate and summarize the data by patient. Key analyses include proportion ratios of frequency between cell pairs and gene mean bulk, which aid in identifying crucial features. These insights are then applied to train a K-Nearest Neighbors (KNN) classifier for patient outcome prediction, following the methodology outlined by Cao et al. and using the dataset provided by Schulte-Schrepping et al.
+This code was written by Thomas Coady, Alex Lee and Bilal Afzal as part of their submission to the McGill PharmaHacks 2024 hackathon. 
+
+This project focuses on predicting the outcomes of COVID-19 patients (mild/moderate vs. severe/critical) based on their single-cell RNA (scRNA) expression data. Utilizing a dataset of 100k cells from COVID-19 patients with mild to moderate outcomes, our approach leverages the `scFeatures` R package to aggregate and summarize the data by patient. Key analyses include proportion ratios of frequency between cell pairs and gene mean bulk, which aid in identifying crucial features. These insights are then applied to train a K-Nearest Neighbors (KNN) classifier for patient outcome prediction, following the methodology outlined by Cao et al. and using the dataset provided by Schulte-Schrepping et al. 
 
 ## Usage
 
